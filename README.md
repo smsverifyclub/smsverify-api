@@ -128,6 +128,8 @@ If successful, response is returned in the form:
 }
 ```
 
+_if you receive an object whose values contain "null", it means that either the sms hasn't come through or id doesn't exist._
+
 
 > Copyright © 2017 [SMS Verify Club](https://github.com/smsverifyclub)
 
