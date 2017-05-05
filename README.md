@@ -108,7 +108,7 @@ If successful, response is returned in the form:
 
 - `GET /smscode`
 
-_Rememberto set a timeout of atleast 35 seconds in order to be 90%+ sure to receive the sms code, failure to do so will result in a null error. This is beacuse we use a GSM module which isn't as fast as receiving and trassmitting messages like VOIP._
+_Remember to set a timeout of atleast 35 seconds in order to be 90%+ sure to receive the sms code, failure to do so will result in a null error. This is beacuse we use a GSM module which isn't as fast as receiving and transmitting messages like VOIP._
 
 
 Param | Description 
