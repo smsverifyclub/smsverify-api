@@ -56,7 +56,9 @@ You must follow the order of flow when making requests:
 
 2. Order a phone number.
 
-3. Retrieve the sms code.
+3. Set a timeout of atleast 35 seconds (to be on the safe side)
+
+4. Retrieve the sms code upon timeout.
 
 ```
 
@@ -105,6 +107,8 @@ If successful, response is returned in the form:
 
 
 - `GET /smscode`
+
+_Rememberto set a timeout of atleast 35 seconds in order to be 90%+ sure to receive the sms code, failure to do so will result in a null error. This is beacuse we use a GSM module which isn't as fast as receiving and trassmitting messages like VOIP. _
 
 
 Param | Description 
